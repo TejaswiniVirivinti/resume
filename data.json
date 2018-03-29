@@ -5,5 +5,46 @@
 "email":"tejaswini.virivinti@gmail.com",
 "phone":"8179798436"
 
+},
+"education":[
+  {
+    "course":"B.tech(Computer science and Engineering)",
+    "college":[
+      "Ravindra college of Engineering for women",
+      "2015-2019",
+      "82%"
+    ]
+  },
+      {
+      "course":"Intermediate",
+      "college":["Sri Aditya Academy",
+        "2013-2015",
+        "96%"
+      ]
+    },
+
+      {
+        "course":"SSC",
+        "college":[
+          "S.N>V>V>High school",
+          "2012-2013",
+          "92%"
+        ]
+      }
+],
+"skills":[
+  {
+     "name":"operating systems",
+     "value":"windows,Linux"
+  },
+  {
+    "name":"programming languages",
+    "value":"c,c++,java"
+  },
+  {
+    "name":"Web development",
+    "value":"HTML,Python"
   }
+]
+
 }

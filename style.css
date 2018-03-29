@@ -1,30 +1,41 @@
+table tr,td{
+   border: 2px solid #000;
+   border-collapse: collapse;
+   background-color: yellow;
+   margin: 3px;
+}
 .main{
-width:100%;
-background-color: #999;
-display: flex;
-flex-direction: row;
+
+ display: flex;
+ flex-wrap: wrap;
+ background-color: #415;
+
 }
 .left{
-  width:100%;
-  background-color: #c45e45;
-  border:5px solid #000;
-  margin: 5px;
-  padding: 50px;
+text-align: justify;
+  background-color: pink;
+  border:2px solid #000;
+  margin: 2px;
+color:#000;
+  flex:1;
+
+
   /* background-image: :url(); */
 }
 .right{
-  width:100%;
-  background-color: #666;
-  border:5px solid #000;
+text-align: justify;
+  background-color: skyblue;
+  border:2px solid #000;
   margin: 5px;
-
+flex:2;
+color:#000;
 }
 #name{
   color:yellow;
 }
 .left img{
   border-radius: 50px;
-  border: 5px solid:#c454;
+  border: 5px solid #c454;
 }
 /* media queries(1024,1280,768,480)
 1280-1024:Desktop
@@ -33,32 +44,32 @@ flex-direction: row;
 480:mobile landscape(or) smaller device) */
 /* @media screen and (min-width=425px){
 } */
-@media only screen and (min-width:1024px) and (max-width:1280px){
+/* @media only screen and (min-width:1024px) and (max-width:1280px){
   .main{
     display: flex;
-    flex-direction: row;
-    width:100%;
+    /* flex-direction: row; */
+    /* width:100%; */
   }
   .left{
-width:25%;
-background-color: #985;
+/* width:25%; */
+/* background-color: #985; */
 
-  }
+  /* }
   .right{
-    width: 75%;
-    background-color:#5436;
+    /* width: 75%; */
+    /* background-color:#5436;
   }
 }
- @media only screen and (min-width:768px) and (max-width:1024px){
+ /* @media only screen and (min-width:768px) and (max-width:1024px){ */
 
-}
+/* }
 
 @media only screen and (min-width:480px) and (max-width:768px){
 
 }
 @media all and (min-width:480px) {
 
-}
+} */
 /*  .main{
   width:100%;
   background-color: #999;
