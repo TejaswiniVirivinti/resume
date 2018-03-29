@@ -13,7 +13,7 @@ table tr,td{
 }
 .left{
 text-align: justify;
-  background-color: pink;
+  background-color: green;
   border:2px solid #000;
   margin: 2px;
 color:#000;
@@ -44,50 +44,93 @@ color:#000;
 480:mobile landscape(or) smaller device) */
 /* @media screen and (min-width=425px){
 } */
-/* @media only screen and (min-width:1024px) and (max-width:1280px){
+@media only screen and (min-width:1024px) and (max-width:1280px){
   .main{
     display: flex;
-    /* flex-direction: row; */
-    /* width:100%; */
+    flex-wrap: wrap;
+     width:100%;
   }
   .left{
-/* width:25%; */
-/* background-color: #985; */
+ width:25%;
+background-color: violet;
 
-  /* }
+   }
   .right{
-    /* width: 75%; */
-    /* background-color:#5436;
+    width: 75%;
+     background-color:maroon;
   }
 }
- /* @media only screen and (min-width:768px) and (max-width:1024px){ */
+  @media only screen and (min-width:768px) and (max-width:1024px){
+    .main{
+      display: flex;
+      flex-wrap: wrap;
+      background-color: yellow;
 
-/* }
+    }
+    .left{
+   text-align: justify;
+  background-color: green;
 
-@media only screen and (min-width:480px) and (max-width:768px){
+     }
+    .right{
+      text-align: justify;
+       background-color:maroon;
+    }
 
+ }
+
+@media only screen and (min-width:480px) and (max-width:768px) {
+  .main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: orange;
+
+  }
+  .left{
+  text-align: justify;
+  background-color: #EE82EE;
+
+   }
+  .right{
+    text-align: justify;
+     background-color:blue;
+  }
 }
 @media all and (min-width:480px) {
+  .main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: pink;
 
-} */
-/*  .main{
-  width:100%;
-  background-color: #999;
-  /*flexbox syntax
-  display: flex;
-  flex-wrap:wrap;
-  flex-direction: column;
   }
   .left{
-    width:100%;
+  text-align: justify;
+  background-color: purple;
+
+   }
+  .right{
+    text-align: justify;
+     background-color:skyblue;
+  }
+}
+ /* .main
+  width:100%;
+  background-color: #999;
+  flexbox syntax
+  display: flex;
+  flex-wrap:wrap;
+
+  }
+  .left{
+
     background-color: #4145;
     border:5px solid #000;
     margin: 5px;
     padding:6px;
-    /* background-image: :url();
+     background-image: :url();
   }
   .right{
-    width:100%;
+
     background-color: #666;
     border:5px solid #000;
     margin: 5px;
@@ -101,4 +144,3 @@ color:#000;
     border: 5px solid:#c454;
   }
 }
-*/
